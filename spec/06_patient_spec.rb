@@ -29,11 +29,7 @@ describe 'Patient' do
   end
 
   describe '#appointments' do
-<<<<<<< HEAD
-    it 'has many appointments' do
-=======
     it 'returns all appointments' do
->>>>>>> solution
       doctor_dog = Doctor.new('Dog')
       doctor_howser = Doctor.new('Howser')
       steve = Patient.new('Steve from Blues Clues')
